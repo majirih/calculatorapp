@@ -1,0 +1,8 @@
+*{
+    margin:0 auto;
+    width:60%;
+}
+.gridcontainer{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
