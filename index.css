@@ -1,8 +1,16 @@
 *{
-    margin:0 auto;
+    margin:20px auto;
     width:60%;
+    background-color: aliceblue;
 }
 .gridcontainer{
     display:grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns:repeat(4, 100px);
+}
+.gridcontainer__item{
+    border-style:none;
+    height:100%;
+    padding:20px;
+    font-size: 2em;
+
 }
