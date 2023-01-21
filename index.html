@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Calculator App</title>
     <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
+
 <body>
     <div class="output">
         <div class="output__previouscalc">123 +</div>
@@ -16,11 +18,15 @@
         <button class="gridcontainer__item gridcontainer__row1first3item">AC</button>
         <button class="gridcontainer__item gridcontainer__row1first3item">+/-</button>
         <button class="gridcontainer__item gridcontainer__row1first3item">%</button>
-        <button class="gridcontainer__item gridcontainer__col5">/</button>
+        <button class="gridcontainer__item gridcontainer__col5 gridcontainer__col5--divide">
+            <img src="./Images/58afde14829958a978a4a6ae.png">
+        </button>
         <button class="gridcontainer__item gridcontainer__item--num7">7</button>
         <button class="gridcontainer__item gridcontainer__item--num8">8</button>
         <button class="gridcontainer__item gridcontainer__item--num9">9</button>
-        <button class="gridcontainer__item gridcontainer__col5">*</button>
+        <button class="gridcontainer__item gridcontainer__col5 gridcontainer__col5--multiply" >
+            <img src="./Images/1024px-Multiplication_Sign.svg.png">
+        </button>
         <button class="gridcontainer__item gridcontainer__item--num4">4</button>
         <button class="gridcontainer__item gridcontainer__item--num5">5</button>
         <button class="gridcontainer__item gridcontaine__item--num6">6</button>
@@ -34,5 +40,7 @@
         <button class="gridcontainer__item gridcontainer__item--decpoint">.</button>
         <button class="gridcontainer__item gridcontainer__col5">=</button>
     </div>
+    <script src="./index.js"></script>
 </body>
+
 </html>
