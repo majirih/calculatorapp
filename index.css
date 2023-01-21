@@ -15,6 +15,7 @@
     height:100%;
     padding:20px;
     font-size: 2em;
+    width:100%;
 }
 .gridcontainer__row1first3item{
     color:aqua;
@@ -22,3 +23,22 @@
 .gridcontainer__col5{
     color:brown
 }
+
+.gridcontainer__item:hover,
+:focus {
+    background-color:black;
+    color: darkgray;
+    cursor: pointer
+}
+
+
+.output{
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
