@@ -5,12 +5,20 @@
 }
 .gridcontainer{
     display:grid;
+    justify-content: space-evenly;
     grid-template-columns:repeat(4, 100px);
+    align-items:center;
+
 }
 .gridcontainer__item{
     border-style:none;
     height:100%;
     padding:20px;
     font-size: 2em;
-
+}
+.gridcontainer__row1first3item{
+    color:aqua;
+}
+.gridcontainer__col5{
+    color:brown
 }
