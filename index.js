@@ -61,3 +61,9 @@ selectOperation(operation);
   this.presentCalc = "";
 }
 
+equalToButton.addEventListener("click", (button) => {
+  calculator.compute();
+  calculator.updateDisplay();
+});
+
+compute()
