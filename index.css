@@ -21,7 +21,11 @@
     color:aqua;
 }
 .gridcontainer__col5{
-    color:brown
+    color:brown;
+}
+.gridcontainer__col5--divide{
+    width:100%;
+    color:brown;
 }
 
 

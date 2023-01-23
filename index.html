@@ -11,34 +11,34 @@
 
 <body>
     <div class="output">
-        <div class="output__previouscalc">123 +</div>
-        <div class="output__presentcalc">456</div>
+        <div data-output-previouscalc class="output__previouscalc"></div>
+        <div data-output-presentcalc class="output__presentcalc"></div>
     </div>
     <div class="gridcontainer">
-        <button class="gridcontainer__item gridcontainer__row1first3item">AC</button>
-        <button class="gridcontainer__item gridcontainer__row1first3item">+/-</button>
-        <button class="gridcontainer__item gridcontainer__row1first3item">%</button>
-        <button class="gridcontainer__item gridcontainer__col5 gridcontainer__col5--divide">
+        <button data-all-clear class="gridcontainer__item gridcontainer__row1first3item">AC</button>
+        <button data-operation class="gridcontainer__item gridcontainer__row1first3item">+/-</button>
+        <button data-operation class="gridcontainer__item gridcontainer__row1first3item">%</button>
+        <button data-operation class="gridcontainer__item gridcontainer__col5 ">
             <img src="./Images/58afde14829958a978a4a6ae.png">
         </button>
-        <button class="gridcontainer__item gridcontainer__item--num7">7</button>
-        <button class="gridcontainer__item gridcontainer__item--num8">8</button>
-        <button class="gridcontainer__item gridcontainer__item--num9">9</button>
-        <button class="gridcontainer__item gridcontainer__col5 gridcontainer__col5--multiply" >
-            <img src="./Images/1024px-Multiplication_Sign.svg.png">
+        <button data-number class="gridcontainer__item">7</button>
+        <button data-number class="gridcontainer__item">8</button>
+        <button data-number class="gridcontainer__item">9</button>
+        <button data-operation class="gridcontainer__item" >
+            <img class="gridcontainer__col5" src="./Images/1024px-Multiplication_Sign.svg.png">
         </button>
-        <button class="gridcontainer__item gridcontainer__item--num4">4</button>
-        <button class="gridcontainer__item gridcontainer__item--num5">5</button>
-        <button class="gridcontainer__item gridcontaine__item--num6">6</button>
-        <button class="gridcontainer__item gridcontainer__col5">-</button>
-        <button class="gridcontainer__item gridcontainer__item--num1">1</button>
-        <button class="gridcontainer__item gridcontainer__item--num2">2</button>
-        <button class="gridcontainer__item gridcontainer__item--num3">3</button>
-        <button class="gridcontainer__item gridcontainer__col5">+</button>
-        <button class="gridcontainer__item gridcontainer__item--del">del</button>
-        <button class="gridcontainer__item gridcontainer__item--num0">0</button>
-        <button class="gridcontainer__item gridcontainer__item--decpoint">.</button>
-        <button class="gridcontainer__item gridcontainer__col5">=</button>
+        <button data-number class="gridcontainer__item">4</button>
+        <button data-number class="gridcontainer__item">5</button>
+        <button data-number class="gridcontainer__item">6</button>
+        <button data-operation class="gridcontainer__item gridcontainer__col5">-</button>
+        <button data-number class="gridcontainer__item">1</button>
+        <button data-number class="gridcontainer__item">2</button>
+        <button data-number class="gridcontainer__item">3</button>
+        <button data-operation class="gridcontainer__item gridcontainer__col5">+</button>
+        <button data-number class="gridcontainer__item">del</button>
+        <button data-number class="gridcontainer__item">0</button>
+        <button data-number class="gridcontainer__item">.</button>
+        <button data-equal-to class="gridcontainer__item gridcontainer__col5">=</button>
     </div>
     <script src="./index.js"></script>
 </body>
