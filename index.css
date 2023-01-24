@@ -52,3 +52,13 @@
     word-wrap: break-word;
     word-break: break-all;
 }
+
+.output__previouscalc {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.output__presentcalc {
+    color: black;
+    font-size: 2.5rem;
+}

@@ -7,40 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator App</title>
     <link rel="stylesheet" type="text/css" href="./index.css">
+    <script src="./index.js" defer></script>
 </head>
 
 <body>
     <div class="output">
-        <div data-output-previouscalc class="output__previouscalc"></div>
-        <div data-output-presentcalc class="output__presentcalc"></div>
+        <div id="data-output-previouscalc" class="output__previouscalc">777</div>
+        <div id="data-output-presentcalc" class="output__presentcalc">878</div>
     </div>
     <div class="gridcontainer">
-        <button data-all-clear class="gridcontainer__item gridcontainer__row1first3item">AC</button>
-        <button data-operation class="gridcontainer__item gridcontainer__row1first3item">+/-</button>
-        <button data-operation class="gridcontainer__item gridcontainer__row1first3item">%</button>
-        <button data-operation class="gridcontainer__item gridcontainer__col5 ">
-            <img src="./Images/58afde14829958a978a4a6ae.png">
-        </button>
-        <button data-number class="gridcontainer__item">7</button>
-        <button data-number class="gridcontainer__item">8</button>
-        <button data-number class="gridcontainer__item">9</button>
-        <button data-operation class="gridcontainer__item">
-            <img class="gridcontainer__col5" src="./Images/1024px-Multiplication_Sign.svg.png">
-        </button>
-        <button data-number class="gridcontainer__item">4</button>
-        <button data-number class="gridcontainer__item">5</button>
-        <button data-number class="gridcontainer__item">6</button>
-        <button data-operation class="gridcontainer__item gridcontainer__col5">-</button>
-        <button data-number class="gridcontainer__item">1</button>
-        <button data-number class="gridcontainer__item">2</button>
-        <button data-number class="gridcontainer__item">3</button>
-        <button data-operation class="gridcontainer__item gridcontainer__col5">+</button>
-        <button data-number class="gridcontainer__item">del</button>
-        <button data-number class="gridcontainer__item">0</button>
-        <button data-number class="gridcontainer__item">.</button>
-        <button data-equal-to class="gridcontainer__item gridcontainer__col5">=</button>
+        <button id="data-all-clear" class="gridcontainer__item gridcontainer__row1first3item">AC</button>
+        <button id="data-operation" class="gridcontainer__item gridcontainer__row1first3item">+/-</button>
+        <button id="data-operation" class="gridcontainer__item gridcontainer__row1first3item">%</button>
+        <button id="data-operation" class="gridcontainer__item gridcontainer__col5 ">÷</button>
+        <button id="data-number" class="gridcontainer__item">7</button>
+        <button id="data-number" class="gridcontainer__item">8</button>
+        <button id="data-number" class="gridcontainer__item">9</button>
+        <button id="data-operation" class="gridcontainer__item gridcontainer__col5">*</button>
+        <button id="data-number" class="gridcontainer__item">4</button>
+        <button id="data-number" class="gridcontainer__item">5</button>
+        <button id="data-number" class="gridcontainer__item">6</button>
+        <button id="data-operation" class="gridcontainer__item gridcontainer__col5">-</button>
+        <button id="data-number" class="gridcontainer__item">1</button>
+        <button id="data-number" class="gridcontainer__item">2</button>
+        <button id="data-number" class="gridcontainer__item">3</button>
+        <button id="data-operation" class="gridcontainer__item gridcontainer__col5">+</button>
+        <button id="data-delete" class="gridcontainer__item">del</button>
+        <button id="data-number" class="gridcontainer__item">0</button>
+        <button id="data-number" class="gridcontainer__item">.</button>
+        <button id="data-equal-to" class="gridcontainer__item gridcontainer__col5">=</button>
     </div>
-    <script src="./index.js"></script>
 </body>
 
 </html>
