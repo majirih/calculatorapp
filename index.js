@@ -23,7 +23,7 @@ class Calculator {
   compute() {
     let computation;
     const prev = parseFloat(this.previousCalc);
-    const present = parseFoat(this.presentCalc);
+    const present = parseFloat(this.presentCalc);
     if (isNaN(prev) || isNaN(present)) return;
     switch (this.operation) {
       case "+":
@@ -72,10 +72,10 @@ const equalToButton = document.querySelector("#data-equal-to");
 const deleteButton = document.querySelector("#data-delete");
 const allClearButton = document.querySelector("#data-all-clear");
 const previousCalcTextElement = document.querySelector(
-  "#data-output-previous-calc"
+  "#data-output-previouscalc"
 );
 const presentCalcTextElement = document.querySelector(
-  "#data-output-present-calc"
+  "#data-output-presentcalc"
 );
 
 const calculator = new Calculator(
